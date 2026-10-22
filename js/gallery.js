@@ -4,24 +4,26 @@
    EDIT DI SINI: ganti "src" dan "caption" tiap foto di array
    `photos` di bawah ini.
 ================================================================= */
+
 const photos = [
   {
     src: "photos/photo1.jpg",
-    caption: "Thank you for being a part of my life... every day with you feels like a gift."
+    caption: "Gracias por llegar a mi vida, mi amor. Cada momento contigo se ha convertido en un recuerdo que guardo con muchísimo cariño."
   },
   {
     src: "photos/photo2.jpg",
-    caption: "I hope that on this special day, you are surrounded by happiness and love."
+    caption: "No importa dónde estemos ni lo que hagamos. Estar contigo siempre consigue hacerme feliz, mi Moi hermosa."
   },
   {
     src: "photos/photo3.jpg",
-    caption: "Every laugh, every hug, every little moment with you means the world to me."
+    caption: "Quiero seguir llenando nuestra historia de besitos, abrazos, risas y muchísimos momentos que recordaremos toda la vida."
   },
   {
     src: "photos/photo4.jpg",
-    caption: "Here's to many more birthdays, adventures, and memories together, my love."
+    caption: "Ojalá estas fotografías sean solamente el comienzo de todos los recuerdos bonitos que todavía nos faltan por crear. Te amo con toda mi alma. ❤️"
   }
 ];
+
 
 const photoEl    = document.getElementById('currentPhoto');
 const captionEl  = document.getElementById('currentCaption');
