@@ -220,18 +220,19 @@ if (floatingBg){
    menulis surat ulang tahunmu sendiri. Pakai \n\n untuk ganti
    paragraf baru.
 ================================================================= */
-const letterMessage =
-`My love,
 
-Happy birthday to the most wonderful person I know. I don't think words can fully capture how grateful I am to have you in my life, but I'm going to try anyway.
+const letterMessage = `Para mi querida Moi, Moi:
 
-You make every ordinary day feel special just by being in it. Your smile, your laugh, the way you care about everyone around you... it all makes me fall for you more every single day.
+Primero que nada, quiero felicitarte por tu cumpleaños. Ya oficialmente eres mi ancianita y estás obligada a pasar todos los días que te quedan en esta vida como viejita a mi lado.
 
-I hope this year brings you every single thing you've been hoping for, and so much more. I promise to be right beside you for all of it — the big moments and the tiny, quiet ones too.
+Quiero tomar un pequeño espacio de esta carta para que tengas MUY en cuenta que, aunque estemos pasando por momentos difíciles como pareja, nunca voy a dejar de amarte, quererte, adorarte y todo lo bonito que te puedas imaginar.
 
-Thank you for being exactly who you are. I love you more than words can say.
+Perdón por todos los malos ratos que te he hecho pasar. ¡Espero que disfrutes muchísimo de tu día, mi vida!
 
-Happy birthday, my girl. Here's to you. 🎂`;
+Te amo con TODA mi alma.
+
+Besos, mi vida. 🩵💜`;
+
 
 const letterEl = document.getElementById('letter-text');
 let typeIndex = 0;
