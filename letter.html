@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday My Girl!!! 💌</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Feliz cumpleaños, amor de mi vidaaaaaa 💌</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="blur-in-start">
 
   <div id="floating-bg"></div>
 
-  <!-- canvas confetti, dipakai oleh js/script.js -->
+  <!-- Confeti animado -->
   <canvas id="confetti-canvas"></canvas>
 
-  <!-- titik navigasi kecil di atas: halaman 4 dari 4 -->
+  <!-- Navegación -->
   <nav class="page-nav">
     <a href="index.html"></a>
     <a href="gallery.html"></a>
@@ -25,38 +29,47 @@
     <a href="letter.html" class="active"></a>
   </nav>
 
-  <!-- ================================================================
-       HALAMAN 4 — THE BIRTHDAY LETTER & CELEBRATION
-  ================================================================= -->
+  <!-- Carta de cumpleaños -->
   <section id="letter-page" class="page">
+
     <div class="letter-card">
-      <h2 class="letter-title">Happy Birthday My Girl!!! &lt;33</h2>
 
-      <!-- ⬇⬇⬇ GANTI GIF DI SINI (Final Celebration GIF) ⬇⬇⬇
-           Masih DUMMY: assets/celebration.gif -->
+      <h2 class="letter-title">
+        ¡Feliz cumpleaños, mi niña hermosa, te adoro con mi vida! ❤️
+      </h2>
+
+      <!-- GIF romántico -->
       <div class="celebration-gif-frame">
-        <img src="assets/celebration.gif" alt="celebration gif">
+        <img
+          src="assets/celebracion_moi.gif"
+          alt="Celebración de cumpleaños con corazones"
+        >
       </div>
-      <!-- ⬆⬆⬆ AKHIR CELEBRATION GIF ⬆⬆⬆ -->
 
-      <!-- -----------------------------------------------------------
-           TEKS SURAT ULANG TAHUN
-           Isi suratnya ADA DI FILE js/script.js, di variabel
-           `letterMessage`. Edit di sana, bukan di sini.
-      ----------------------------------------------------------- -->
+      <!-- Carta con efecto de escritura -->
       <div class="letter-box">
         <p id="letter-text"></p>
       </div>
 
-      <p class="signature">— your biggest fan 💌</p>
+      <!-- Firma -->
+      <p class="signature">
+        — Con todo el cariño del mundo, tu moi ❤️
+      </p>
+
     </div>
 
+    <!-- Botón para volver -->
     <div class="page-buttons">
-      <a href="reasons.html" class="nav-btn secondary">&lt; back to photos</a>
+      <a href="reasons.html" class="nav-btn secondary">
+        &lt; Volver a las razones
+      </a>
     </div>
+
   </section>
 
-  <footer>made with love, just for you 🩶</footer>
+  <footer>
+    Hecho con todo mi amor, única y exclusivamente para ti (mi moi / Anacaona) ❤️
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
