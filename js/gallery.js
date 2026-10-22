@@ -12,7 +12,7 @@ const photos = [
   },
   {
     src: "photos/photo2.jpg",
-    caption: "No importa dónde estemos ni lo que hagamos. Estar contigo siempre consigue hacerme feliz, mi Moi hermosa."
+    caption: "No importa dónde estemos ni lo que hagamos. Estar contigo siempre consigue hacerme feliz, te amo con mi vida."
   },
   {
     src: "photos/photo3.jpg",
