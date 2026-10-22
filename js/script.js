@@ -45,15 +45,37 @@ if (!noteOverlay){
   noteOverlay = document.createElement('div');
   noteOverlay.id = 'noteOverlay';
   noteOverlay.className = 'note-overlay';
-  noteOverlay.innerHTML = `
-    <div class="note-paper" id="notePaper">
-      <button class="note-close" id="noteClose" aria-label="close note">✕</button>
-      <h3 class="note-title">just for you to fill in 💌</h3>
-      <p class="note-hint">tulis apa aja yang mau kamu sampaikan, atau wishlist kita ke depannya~</p>
-      <textarea id="noteTextarea" class="note-textarea" placeholder="dear... aku mau bilang..."></textarea>
-      <span class="note-saved" id="noteSaved">saved ✓</span>
-    </div>
-  `;
+
+noteOverlay.innerHTML = `
+  <div class="note-paper" id="notePaper">
+
+    <button class="note-close"
+            id="noteClose"
+            aria-label="Cerrar nota">✕</button>
+
+    <h3 class="note-title">
+      Un deseo entre nosotros ✨
+    </h3>
+
+    <p class="note-hint">
+      En este cumpleaños quiero conocer uno de tus deseos
+      más especiales. Puede ser algo para ti, algo para
+      nosotros o algo que quieras que vivamos juntos.
+    </p>
+
+    <textarea
+      id="noteTextarea"
+      class="note-textarea"
+      placeholder="Mi deseo es que..."
+    ></textarea>
+
+    <span class="note-saved" id="noteSaved">
+      Guardado ✓
+    </span>
+
+  </div>
+`;
+
   document.body.appendChild(noteOverlay);
 }
 
