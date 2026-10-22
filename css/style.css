@@ -1040,3 +1040,9 @@ footer{
   html{ scroll-behavior: auto; }
   body{ transition: none; }
 }
+
+
+/* Ocultar el botón de música */
+#musicBtn {
+  display: none !important;
+}
